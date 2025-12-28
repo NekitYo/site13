@@ -60,7 +60,45 @@
     transition: 1s;
 }
 
-.nav {
+.banner {
     height: 100vh;
-    background: blueviolet url("bg1.png");
+    background:rgb(87, 29, 126) url("bg1.png");
+}
+
+.about {
+    height: 100vh;
+    background: rgb(87, 29, 126);
+    h2 {
+        text-align: center;
+    }
+}
+
+.fade{
+    width: 90%;
+    height: 90%;
+    margin:0 auto;
+    border-radius: 50px;
+    background: url("image 66.png");
+    background-position: center;
+    background-size: 100% 120%;
+    color: gainsboro;
+    transition: 1s;
+}
+
+.fade:hover{
+    background-size: 120% 150%;
+    filter: grayscale(50%);
+}
+
+.fade_text:hover{
+    opacity: 1;
+}
+
+.fade_text{
+    transition: 1s;
+    opacity: 0;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
 }
